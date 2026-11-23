@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KopDash Co-op — Support</title>
+  <style>
+    :root {
+      --red:    #C8382A;
+      --red-dk: #9E2B1F;
+      --cream:  #FDF6EC;
+      --text:   #1A1A1A;
+      --muted:  #6B6B6B;
+      --border: #E5D8C8;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    header {
+      background: var(--red);
+      color: #fff;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+
+    header .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.18);
+      border-radius: 12px;
+      padding: 6px 14px;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    header h1 {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 15px;
+      opacity: 0.85;
+    }
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    section { margin-bottom: 48px; }
+
+    h2 {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 16px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+    }
+
+    .contact-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .contact-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      background: var(--red);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 20px;
+    }
+
+    .contact-row h3 { font-size: 15px; font-weight: 600; }
+    .contact-row p  { font-size: 13px; color: var(--muted); margin-top: 2px; }
+
+    .contact-row a {
+      color: var(--red);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact-row a:hover { text-decoration: underline; }
+
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+      padding: 18px 0;
+    }
+
+    .faq-item:first-child { padding-top: 0; }
+    .faq-item:last-child  { border-bottom: none; padding-bottom: 0; }
+
+    .faq-item h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .faq-item p {
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .faq-item p strong { color: var(--text); }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 12px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+
+    footer a { color: var(--red); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="badge">iOS Game</div>
+  <h1>KopDash Co-op</h1>
+  <p>Support &amp; Help Centre</p>
+</header>
+
+<main>
+
+  <!-- Contact -->
+  <section>
+    <h2>Contact Us</h2>
+    <div class="card">
+      <div class="contact-row">
+        <div class="contact-icon">✉️</div>
+        <div>
+          <h3>Email Support</h3>
+          <p>
+            For bug reports, questions or feedback, write to us at<br />
+            <a href="mailto:toya.luckyrich@gmail.com">toya.luckyrich@gmail.com</a>
+          </p>
+          <p style="margin-top:4px;">We aim to reply within 2 business days.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <h2>Frequently Asked Questions</h2>
+    <div class="card">
+
+      <div class="faq-item">
+        <h3>How do I restock a shelf?</h3>
+        <p>Tap an empty or low shelf to restock it instantly. Once you hire a <strong>Clerk (Pramuniaga)</strong>, shelves are restocked automatically.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How does the cashier work?</h3>
+        <p>When a customer reaches the counter, tap the cashier once to scan their items, then tap again to collect the money. After hiring a <strong>Cashier (Kasir)</strong>, scanning becomes fully automatic.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What is Rush Hour (Dash)?</h3>
+        <p>Serve customers to fill the Dash meter, then tap <strong>DASH</strong> to trigger a 30-second Rush Hour: visitors ×3 and prices ×1.5. It has a 10-minute cooldown.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Can I earn while the app is closed?</h3>
+        <p>Yes. Your store earns offline income at 50 % of the normal rate. The cap starts at 2 hours and increases up to 12 hours by upgrading the <strong>Manager (Manajer)</strong>.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I unlock a new branch?</h3>
+        <p>Reach <strong>★3 reputation</strong> in the current branch, then pay the unlock cost shown on the Branch Map. Branches open in order: Jungle → Fishpond → Graveyard → Isekai → Moon.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What are Co-op Points (CP)?</h3>
+        <p>Co-op Points are earned by gaining stars and maxing out shelves. Spend them on the <strong>Member Card</strong> to unlock perks that apply to every branch, such as higher sale prices and faster scan times.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What is the Visitor Album?</h3>
+        <p>The Album tracks the 14 unique visitor types you've served. Reaching Bronze, Silver and Gold milestones for each visitor unlocks a permanent tip bonus for that type.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>What is Kliwon Night?</h3>
+        <p>Every Thursday night, spirit visitors (Pocong and Kuntilanak) visit the <strong>KopDash Graveyard</strong> twice as often. The event is marked with a banner in-game.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>My progress has disappeared. What can I do?</h3>
+        <p>Save data is stored locally on your device. If you have <strong>iCloud</strong> enabled in Settings, your progress is backed up automatically. Contact us at <a href="mailto:toya.luckyrich@gmail.com">toya.luckyrich@gmail.com</a> and we will do our best to help.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>Does KopDash require an internet connection?</h3>
+        <p>No. KopDash plays fully offline. An internet connection is only needed to load rewarded ads (optional) and to sync iCloud saves.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>How do I reset my game?</h3>
+        <p>At this time there is no in-app reset option. If you need to start over, delete and reinstall the app. Note that this will permanently erase your local save data.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- App info -->
+  <section>
+    <h2>App Information</h2>
+    <div class="card">
+      <div class="faq-item">
+        <h3>Platform</h3>
+        <p>iOS (iPhone)</p>
+      </div>
+      <div class="faq-item">
+        <h3>Languages</h3>
+        <p>English · Bahasa Indonesia</p>
+      </div>
+      <div class="faq-item">
+        <h3>Account required?</h3>
+        <p>No account or registration required.</p>
+      </div>
+      <div class="faq-item">
+        <h3>In-app purchases</h3>
+        <p>Optional gem packs, a Starter Pack and a Gold Member Card subscription. All core gameplay is free.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 KopDash Co-op &nbsp;·&nbsp; <a href="privacy-policy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
